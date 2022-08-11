@@ -20,7 +20,7 @@ let datos= [];
 function agregar (){
     datos.push(nuevoSujeto);
     console.log(datos);
-    document.getElementById("tabla").innerHTML += '<tbody> <td>Joaquin</td> <td>24</td></tbody>';
+    document.getElementById("tabla").innerHTML += '<tbody> <td>'+nuevoSujeto.nombre+'</td> <td>'+nuevoSujeto.edad+'</td></tbody>';
 }
 
  
