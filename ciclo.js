@@ -1,29 +1,26 @@
+function capturar(){
 
-let parcial;
-let parcial2;
-let promedio;
-let suma;
-const mensaje = ["aprobado", "desaprobado"];
-
- parcial= parseInt(prompt("ingrese calificacion del primer parcial"));
- parcial2= parseInt(prompt("ingrese calificacion del segundo parcial"));
-
-
-function sumar( parcial, parcial2 ); {
- suma = parcial1 + parcial2
- promedio = suma / 2
- alert("el promedio de las notas es " + promedio);
-
- const mensaje = ["aprobado", "desaprobado"];
-
-for (promedio > 6) {
-    alert (mensaje[0]);
+    function {
+        persona(nombre,edad){
+            this.nombre=nombre;
+            this.edad=edad;
+        }
     
+    }
+    let nombrecapturar = document.getElementById("nombre").value;
+    let edadCapturar = document-getElementById("edad").value;
+
+    nuevoSujeto = new persona(nombrecapturar,edadCapturar);
+    console.log(nuevoSujeto);
+
+   agregar();
 }
 
-if (promedio <= 6){
-    alert(mensaje[1]);
-}
+let datos= [];
+function agregar (){
+    datos.push(nuevoSujeto);
+    console.log(datos);
+    document.getElementById("tabla").innerHTML += '<tbody> <td>Joaquin</td> <td>24</td></tbody>';
 }
 
  
