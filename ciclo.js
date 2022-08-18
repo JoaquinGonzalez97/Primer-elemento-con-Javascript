@@ -1,3 +1,12 @@
+const container = document.querySelector('.container');
+
+container.addEventListener("mouseenter" , () =>{
+    console.log(1);
+}) 
+
+
+
+
 function capturar(){
 
     function {
@@ -23,4 +32,5 @@ function agregar (){
     document.getElementById("tabla").innerHTML += '<tbody> <td>'+nuevoSujeto.nombre+'</td> <td>'+nuevoSujeto.edad+'</td></tbody>';
 }
 
- 
+
+
