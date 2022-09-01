@@ -1,11 +1,10 @@
+
+
 const container = document.querySelector('.container');
 
 container.addEventListener("mouseenter" , () =>{
     console.log(1);
 }) 
-
-
-
 
 function capturar(){
 
@@ -31,6 +30,8 @@ function agregar (){
     console.log(datos);
     document.getElementById("tabla").innerHTML += '<tbody> <td>'+nuevoSujeto.nombre+'</td> <td>'+nuevoSujeto.edad+'</td></tbody>';
 }
+
+localStorage.setItem(persona, JSON.stringify(persona));
 
 
 
